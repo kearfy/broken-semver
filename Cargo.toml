@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 semver = "1.0.21"
+surrealdb = { package="surrealdb-beta", version="1", features = ["kv-mem"] }

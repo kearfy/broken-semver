@@ -1,4 +1,3 @@
-// #![feature(collections)]
 use semver::{Version, VersionReq};
 
 fn valid_official(version: Version) -> bool {
